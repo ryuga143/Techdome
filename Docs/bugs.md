@@ -100,7 +100,7 @@
 1. Go to https://techdome.io
 2. Scroll to the right panel on the homepage showing "News & Events"
 3. Hover over the "News & Events" heading
-4. Observe — cursor changes to a pointer hand (↖ → 👆) indicating it's clickable
+4. Observe — cursor changes to a pointer hand indicating it's clickable
 5. Click on "News & Events"
 6. Observe — nothing happens
 

@@ -78,6 +78,8 @@ Test Type: E2E · Priority: Medium
 **Acceptance:**
 1. LCP is measurable; flag if > 4s
 **Test Type:** E2E · **Priority:** Low
+
+
 ## US-009
 **Title:** Contact form fires the correct network request
 **As a:** prospect (system behaviour)
