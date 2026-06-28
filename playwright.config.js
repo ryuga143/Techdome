@@ -19,24 +19,26 @@ export default defineConfig(
   screenshot:'only-on-failure',
   video: 'retain-on-failure',
   trace:'on-first-retry',
-  headless:false
+  headless:true
 },
 
   projects: [
     {
       name: 'e2e',
       testDir: './tests/e2e',
-      use: { ...devices['Desktop Chrome'] },
+      use: { ...devices['Desktop Chrome'],
+      headless: true,
+       },
     },
     {
       name: 'integration',
       testDir: './tests/integration',
-      use: { ...devices['Desktop Chrome'] },
+      use: { ...devices['Desktop Chrome'],headless: true, },
     },
     {
       name: 'security',
       testDir: './tests/security',
-      use: { ...devices['Desktop Chrome'] },
+      use: { ...devices['Desktop Chrome'],headless: true, },
     },
     {
       name: 'load',
@@ -44,7 +46,7 @@ export default defineConfig(
       workers: 1,
       fullyParallel: false,
       retries: 0,
-      use: { ...devices['Desktop Chrome'] }
+      use: { ...devices['Desktop Chrome'],headless: true, }
     }
   ],
 
