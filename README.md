@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Techdome QA — Playwright Suite for techdome.io
 
 End-to-end, integration, security and load tests for **techdome.io**, built for the
@@ -69,3 +70,6 @@ BASE_URL=https://staging.techdome.io npx playwright test
 - Security assertions are intentionally strict: a missing header is reported as a
   bug rather than asserted away.
 - See `docs/bugs.md` for findings and `docs/claude-code-log.md` for how AI was used.
+=======
+# Techdome
+>>>>>>> e5760e386720ad1416c6e1d3476f6f173eb4f45f
